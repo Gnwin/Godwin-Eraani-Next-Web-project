@@ -1,0 +1,46 @@
+/*** Project Meta ***/
+
+/* general - line __ */
+
+/* header - line __ */
+
+/* main content - line __ */
+
+/* footer - line __ */
+
+/** GENERAL **/
+
+/* :root {
+  --font-family: 'Jaldi', sans-serif;
+  --sdry-family: 'Lora', serif;
+  --mid-fsize: 1.5rem;
+  --top-hierarchy: rgb(49, 49, 49);
+  --mid-hierarchy: rgb(77, 77, 77);
+  --bot-hierarchy: rgb(139, 139, 139);
+  --content-color: #fff;
+} */
+
+html {
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-size: 87.5%;
+}
+
+body {
+  background-color: white;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.offscreen {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/** header **/
