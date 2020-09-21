@@ -50,3 +50,48 @@ body {
 }
 
 /** header **/
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tnw {
+  background-color: black;
+}
+
+.nav1 .tnw .tnw-img {
+  width: 7.5714rem;
+  padding: 1.2rem 1.4rem 0.9rem 1.4rem;
+}
+
+.nav1  .tnw-nav .tnw-ul {
+  /* display: inline-block; */
+}
+
+.nav1 .search,
+.nav1 .ham {
+  display: inline-block;
+  border-left: 1px solid #000;
+  padding: 1.05rem 1.25rem;
+}
+
+.nav1 .sea {
+  width: 1.2rem;
+}
+
+.nav2 {
+  background-color: #ffdd33;
+  text-align: center;
+  padding: 1.4rem;
+}
+
+.cover-story {
+  display: grid;
+  grid-template-rows: ;
+}
+
+.main {
+  
+}
