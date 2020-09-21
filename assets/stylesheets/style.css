@@ -49,6 +49,8 @@ body {
   width: 1px;
 }
 
+@media screen and (max-width: 767px) {
+
 /** header **/
 
 .nav1 {
@@ -89,9 +91,41 @@ body {
 
 .cover-story {
   display: grid;
-  grid-template-rows: ;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, 12.95rem);
+  margin: 0 0.2857rem;
 }
 
-.main {
-  
+  /* background-image: url(photo.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: #ccc; */
+
+.cover-story .one {
+  background: url(../images/bolt-walking-service-app-zero-emissions-day-car-uber-lyft-walk-796x448.jpg) 100% 100% no-repeat;
+}
+
+.cover-story .two {
+  background: url(../images/bolt-walking-service-app-zero-emissions-day-car-uber-lyft-walk-796x448.jpg) 100% 100% no-repeat;
+}
+
+.cover-story .three {
+  background: url(../images/bolt-walking-service-app-zero-emissions-day-car-uber-lyft-walk-796x448.jpg) 100% 100% no-repeat;
+}
+
+.align {
+  margin: 0 1.4285rem;
+  padding-top: 1.7142rem;
+}
+
+.crowd-img {
+  width: 100%;
+}
+
+
+
 }
