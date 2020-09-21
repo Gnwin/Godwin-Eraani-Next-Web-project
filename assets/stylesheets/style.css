@@ -126,6 +126,15 @@ body {
   width: 100%;
 }
 
+.latest-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.latest-flex .news {
+  display: flex;
+  flex-direction: column;
+}
 
 
 }
