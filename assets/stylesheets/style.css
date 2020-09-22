@@ -46,9 +46,6 @@ html {
   width: 1px;
 }
 
-<<<<<<< HEAD
-/** header **/
-
 /*--- General ---*/
 .main-clr{
   color: var(--main-color);
@@ -67,6 +64,10 @@ html {
 .scnd-f{
   font-family: var(--scnd-f);
 }
+
+/** header **/
+
+
 
 
 /*--- Funding ---*/
@@ -211,7 +212,6 @@ html {
 
 .card-subtitle span{
   text-decoration: line-through;
-=======
 @media screen and (max-width: 767px) {
 
 /** header **/
@@ -300,5 +300,4 @@ html {
 }
 
 
->>>>>>> 7b2b2c4b441c575b8e805ca24dafdffcf22a8e9e
 }
