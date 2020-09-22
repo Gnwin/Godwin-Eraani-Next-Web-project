@@ -90,9 +90,9 @@ html {
   padding: 1.2rem 1.4rem 0.9rem 1.4rem;
 }
 
-.nav1  .tnw-nav .tnw-ul {
-  /* display: inline-block; */
-}
+/*.nav1  .tnw-nav .tnw-ul {
+  display: inline-block; 
+}*/
 
 .nav1 .search,
 .nav1 .ham {
@@ -243,6 +243,10 @@ html {
   background-position: 50% center;
 }
 
+.cat-header{
+  margin: 3rem 0 1.5rem 0;
+}
+
 .cat-text{
   padding: 20rem 0 1.5rem 0;
   color: #fff;
@@ -303,3 +307,4 @@ html {
 
 .card-subtitle span{
   text-decoration: line-through;
+}
