@@ -10,30 +10,33 @@
 
 /** GENERAL **/
 
-body {
-  background-color: white;
-  position: relative;
-  margin: 0;
-  padding: 0;
-}
+/* :root {
+  --font-family: 'Jaldi', sans-serif;
+  --sdry-family: 'Lora', serif;
+  --mid-fsize: 1.5rem;
+  --top-hierarchy: rgb(49, 49, 49);
+  --mid-hierarchy: rgb(77, 77, 77);
+  --bot-hierarchy: rgb(139, 139, 139);
+  --content-color: #fff;
+} */
+
+/* #FFDD33 yellow
+#FF4422 orange
+#00CCCC green
+#FFEBE7 light orange */
+
 
 html {
   font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
   font-size: 87.5%;
 }
 
-:root {
-  --main-f: 'Lilita One', cursive;
-  --scnd-f: 'Arial', sans-serif;
-  --title-fs: 2.5rem;
-  --content-fs: 1rem;
-  --main-color: #f84222;
+body {
+  background-color: white;
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
-
-/* #FFDD33 yellow
-#FF4422 orange
-#00CCCC green
-#FFEBE7 light orange */
 
 .offscreen {
   border: 0;
@@ -46,31 +49,6 @@ html {
   width: 1px;
 }
 
-/*--- General ---*/
-.main-clr{
-  color: var(--main-color);
-}
-
-.title{
-  font-family: var(--main-f);
-  font-size: var(--title-fs);
-  color: var(--main-color);
-}
-
-.cont-fs{
-  font-size: var(--content-fs);
-}
-
-.scnd-f{
-  font-family: var(--scnd-f);
-}
-
-/** header **/
-
-
-
-
-
 @media screen and (max-width: 767px) {
 
 /** header **/
@@ -79,6 +57,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .tnw {
