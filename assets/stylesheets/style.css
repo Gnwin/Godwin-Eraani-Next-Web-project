@@ -142,16 +142,35 @@ body {
 
 
   .footer1 {
+    display: flex;
+    justify-content: center;
     background-color: #131313;
   }
 
-  .nav-li {
-    display: inline-block;
+  .foot-nav {
+
   }
 
   .nv-img {
     width: 1rem;
-    background-color: white;
+    color: white;
+  }
+
+  .nav-ul {
+    margin: 0 auto;
+  }
+
+  .nav-li {
+    padding: 1rem;
+    border-radius: 50px;
+    background-color: #333;
+    display: inline-block;
+  }
+
+  .navli1 {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
   }
 
 
