@@ -26,12 +26,12 @@
 #FFEBE7 light orange */
 
 
-html {
+.html {
   font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
   font-size: 87.5%;
 }
 
-body {
+.body {
   background-color: white;
   position: relative;
   margin: 0;
@@ -47,6 +47,13 @@ body {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 767px) {
@@ -127,6 +134,32 @@ body {
     width: 100%;
   }
 
+  .latest {
+    color: #f42;
+    text-decoration: none;
+    margin-bottom: 1.7142rem;
+  }
+
+  .latest-header {
+    /* float: left; */
+    font-size: 2rem;
+  }
+
+  .latest-left-link {
+    /* float: right; */
+  }
+
+  .latest-left-link::after {
+    content: "";
+    clear: both;
+  }
+
+  .latest-header-link,
+  .latest-left-link {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
   .latest-flex {
     display: flex;
     flex-direction: column;
@@ -186,6 +219,7 @@ body {
   .foot-text {
     width: 30%;
     margin: 0 auto;
+    padding: 2.2857rem 0;
   }
 
   .tnw-img1 {
