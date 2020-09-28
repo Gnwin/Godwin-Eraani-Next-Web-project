@@ -122,15 +122,15 @@
     background-clip: border-box;
     background-color: #ccc; */
 
-  .cover-story .one {
+    .cover-story .one {
     background-image: url(../images/bolt-walking-service-app-zero-emissions-day-car-uber-lyft-walk-796x448.jpg);
-    background-position: left bottom;
+    background-position: bottom;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
     /* background-origin: padding-box; */
     /* background-clip: border-box; */
-    background-color: none;
+    /* background-color: none; */
   }
 
   .cover-story .two {
