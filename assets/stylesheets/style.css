@@ -26,6 +26,8 @@
 #FFEBE7 light orange */
 
 
+/** GENERAL **/
+
 .html {
   font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
   font-size: 87.5%;
@@ -48,6 +50,8 @@
   position: absolute;
   width: 1px;
 }
+
+/** header **/
 
 .header {
   position: fixed;
@@ -138,7 +142,7 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
   .nav1 .tnw .tnw-img {
     padding: 2.5rem 1.4rem 2.1rem;
