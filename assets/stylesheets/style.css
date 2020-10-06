@@ -452,6 +452,14 @@
     color: white;
   } */
 
+  .fi {
+    width: 2.8572rem;
+  }
+
+  .fund-img {
+    width: 100%;
+  }
+
   .background {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
     width: 100%;
