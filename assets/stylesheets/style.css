@@ -398,6 +398,7 @@
     color: #f42;
     text-decoration: none;
     margin-bottom: 1.7142rem;
+    padding: 0 0.5714rem;
   }
 
   .latest-header {
@@ -452,12 +453,94 @@
     color: white;
   } */
 
+  .round-link {
+    color: #f42;
+    margin-top: 0.7857rem;
+  }
+
+  .round {
+    font-size: 2rem;
+    font-family: "Avalon", "sans-serif";
+    font-weight: bold;
+  }
+
+  .funding {
+    color: #f42;
+    padding: 0.5714rem;
+  }
+
+  .mt {
+    margin-bottom: 1.7143rem;
+  }
+
+  .fund {
+    color: white;
+    padding: 0.5714rem 0;
+  }
+
+  .fu {
+    position: relative;
+  }
+
   .fi {
-    width: 2.8572rem;
+    width: 4.2857rem;
+    position: absolute;
+    top: 0.8571rem;
+    left: 0.8571rem;
   }
 
   .fund-img {
     width: 100%;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .skill {
+    background-color: #f42;
+  }
+
+  .suse {
+    background-color: #ffebe7;
+    color: black;
+  }
+
+  .skill,
+  .suse {
+    padding: 0.7619rem 1.1429rem 0.7619rem 6rem;
+  }
+
+  .sum {
+    font-size: 1.2857rem;
+  }
+
+  .series {
+    color: #555;
+    font-size: 0.7857rem;
+  }
+
+  .cate {
+    background-color: #fffaf8;
+    padding: 1.1429rem;
+    font-size: 0.9286rem;
+  }
+
+  .col {
+    color: #555;
+  }
+
+  .fustart {
+    background-color: #fffaf8;
+    padding: 1.1429rem;
+    color: #555;
+    font-size: 0.8571rem;
+    border-top: 1px solid #ffebe7;
+    display: block;
+  }
+
+  .section {
+    padding: 0 0.5714rem;
   }
 
   .background {
