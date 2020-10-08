@@ -465,7 +465,6 @@
   }
 
   .funding {
-    color: #f42;
     padding: 0.5714rem;
   }
 
@@ -516,12 +515,10 @@
   }
 
   .series {
-    color: #555;
     font-size: 0.7857rem;
   }
 
   .cate {
-    background-color: #fffaf8;
     padding: 1.1429rem;
     font-size: 0.9286rem;
   }
@@ -530,10 +527,12 @@
     color: #555;
   }
 
-  .fustart {
+  .bc {
     background-color: #fffaf8;
+  }
+
+  .fustart {
     padding: 1.1429rem;
-    color: #555;
     font-size: 0.8571rem;
     border-top: 1px solid #ffebe7;
     display: block;
