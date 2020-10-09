@@ -158,7 +158,7 @@
 }
 
 .align {
-  width: 97%;
+  width: 95%;
   margin: 0 auto;
   padding-top: 1.7142rem;
 }
@@ -214,6 +214,95 @@
   background-position: bottom;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.round-link {
+  color: #f42;
+  margin-top: 0.7857rem;
+}
+
+.round {
+  font-size: 2rem;
+  font-family: "Avalon", "sans-serif";
+  font-weight: bold;
+}
+
+.funding {
+  /* padding: 0.5714rem; */
+}
+
+.mt {
+  margin-bottom: 1.7143rem;
+}
+
+.fund-align {
+  margin: 0 auto;
+}
+
+.fund {
+  color: white;
+  /* padding: 0.5714rem 0; */
+}
+
+.fu {
+  position: relative;
+}
+
+.fi {
+  width: 4.2857rem;
+  position: absolute;
+  top: 0.8571rem;
+  left: 0.8571rem;
+}
+
+.fund-img {
+  width: 100%;
+}
+
+.block {
+  display: block;
+}
+
+.skill {
+  background-color: #f42;
+}
+
+.suse {
+  background-color: #ffebe7;
+  color: black;
+}
+
+.skill,
+.suse {
+  padding: 0.7619rem 1.1429rem 0.7619rem 6rem;
+}
+
+.sum {
+  font-size: 1.2857rem;
+}
+
+.series {
+  font-size: 0.7857rem;
+}
+
+.cate {
+  padding: 1.1429rem;
+  font-size: 0.9286rem;
+}
+
+.col {
+  color: #555;
+}
+
+.bc {
+  background-color: #fffaf8;
+}
+
+.fustart {
+  padding: 1.1429rem;
+  font-size: 0.8571rem;
+  border-top: 1px solid #ffebe7;
+  display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -285,6 +374,34 @@
   .cover-story .three {
     grid-area: 2 / 3 / 3 / 4;
   }
+
+  .fund-align {
+    width: 100%;
+  }
+
+  .fund {
+    float: left;
+    width: 33%;
+    /* padding: 0.1666%; */
+    /* padding: 1.35%; */
+  }
+
+  .fund:nth-of-type(2) {
+    margin: 0 0.25%;
+  }
+
+  .fund:nth-of-type(1) {
+    margin-right: 0.25%;
+  }
+
+  .fund:nth-of-type(3) {
+    margin-left: 0.25%;
+  }
+
+  /* .fund-align::after {
+    content: "";
+    clear: both;
+  } */
 
 }
 
@@ -448,98 +565,19 @@
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-burst-374074-405x270.jpg)
   } */
 
-
   /* .part {
     color: white;
   } */
 
-  .round-link {
-    color: #f42;
-    margin-top: 0.7857rem;
-  }
-
-  .round {
-    font-size: 2rem;
-    font-family: "Avalon", "sans-serif";
-    font-weight: bold;
-  }
-
-  .funding {
-    padding: 0.5714rem;
-  }
-
-  .mt {
-    margin-bottom: 1.7143rem;
-  }
+  /* .fund-align {}
 
   .fund {
     color: white;
     padding: 0.5714rem 0;
-  }
-
-  .fu {
-    position: relative;
-  }
-
-  .fi {
-    width: 4.2857rem;
-    position: absolute;
-    top: 0.8571rem;
-    left: 0.8571rem;
-  }
-
-  .fund-img {
-    width: 100%;
-  }
-
-  .block {
-    display: block;
-  }
-
-  .skill {
-    background-color: #f42;
-  }
-
-  .suse {
-    background-color: #ffebe7;
-    color: black;
-  }
-
-  .skill,
-  .suse {
-    padding: 0.7619rem 1.1429rem 0.7619rem 6rem;
-  }
-
-  .sum {
-    font-size: 1.2857rem;
-  }
-
-  .series {
-    font-size: 0.7857rem;
-  }
-
-  .cate {
-    padding: 1.1429rem;
-    font-size: 0.9286rem;
-  }
-
-  .col {
-    color: #555;
-  }
-
-  .bc {
-    background-color: #fffaf8;
-  }
-
-  .fustart {
-    padding: 1.1429rem;
-    font-size: 0.8571rem;
-    border-top: 1px solid #ffebe7;
-    display: block;
-  }
+  } */
 
   .section {
-    padding: 0 0.5714rem;
+    /* padding: 0 0.5714rem; */
   }
 
   .background {
