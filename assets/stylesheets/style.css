@@ -416,6 +416,34 @@
   width: 5rem;
 }
 
+@media screen and (min-width: 1024px) {
+
+  .cover-story {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(2, 17.3571rem);
+  }
+
+  .news {
+    flex-direction: column;
+    width: 23.5746%;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+  
+  .in {
+    display: inline-block;
+    margin-right: 0.8rem;
+    padding-right: 0.6rem;
+  }
+
+  .pb {
+    border-right: 1px solid #f42;
+  }
+
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -593,8 +621,6 @@
   .cover-story .three {
     grid-area: 3 / 1 / 4 / 2;
   }
-
-  
 
   .latest {
     color: #f42;
