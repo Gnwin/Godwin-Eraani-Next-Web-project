@@ -10,16 +10,6 @@
 
 /** GENERAL **/
 
-:root {
-  /* --font-family: 'Jaldi', sans-serif;
-  --sdry-family: 'Lora', serif;
-  --mid-fsize: 1.5rem;
-  --top-hierarchy: rgb(49, 49, 49);
-  --mid-hierarchy: rgb(77, 77, 77);
-  --bot-hierarchy: rgb(139, 139, 139);
-  --content-color: #fff; */
-  --width: 100%;
-}
 
 /* #FFDD33 yellow
 #FF4422 orange
@@ -105,8 +95,6 @@
   align-items: center;
 }
 
-.tnw-nav-left {}
-
 .child {
   display: inline-block;
   padding: 1.2rem 0.8rem;
@@ -115,14 +103,6 @@
 .child .child-link {
   color: #aaa;
   font-family: 'Shentox' sans-serif;
-}
-
-.tnw-ul {
-  /* float: right; */
-}
-
-.nav1  .tnw-nav .tnw-ul {
-  /* display: inline-block; */
 }
 
 .nav1 .search,
@@ -142,8 +122,6 @@
   padding: 1.4rem;
 }
 
-.main {}
-
 .grid-pad {
   margin-top: 5.8rem;
   padding-left: 8px;
@@ -152,8 +130,128 @@
 
 .cover-story {
   display: grid;
-  max-width: 100%;
   grid-row-gap: 0.7142rem; 
+}
+
+.cover-story .one {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/image-16-796x417.png");
+  background-position: bottom;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.cover-story .two {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/tnw2020-feature_img-02.jpg");
+  background-position: bottom;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.cover-story .three {
+  background-image: url(../images/bolt-walking-service-app-zero-emissions-day-car-uber-lyft-walk-796x448.jpg);
+  background-position: bottom;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.cover-div1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.cover-div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cover-div1 .cvd1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px 20px 0 20px;
+  width: 100%;
+}
+
+.cover-div1 .cvd2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.cover-div .cvd1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+}
+
+.cover-div .cvd2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.cdi {
+  width: 340px;
+  float: left;
+}
+
+.time {
+  float: right;
+  color: white;
+}
+
+.cover-div .cvd1:after {
+  content: "";
+  clear: both;
+}
+
+.cda {
+  display: block;
+}
+
+.cda,
+.share {
+  color: white;
+}
+
+.cap {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: 'Avalon' 'sans-serif';
+  margin-bottom: 0;
+}
+
+.sh {
+  display: inline;
+}
+
+.um {
+  color: white;
+}
+
+.fa-clock {
+  width: 15px;
+  height: 15px;
+  color: white;
+}
+
+.red {
+  font-size: 2rem;
+}
+
+.none {
+  display: none;
 }
 
 .align {
@@ -164,8 +262,11 @@
 
 .latest-flex {
   display: flex;
-  /* flex-direction: column; */
-  width: 100%;
+}
+
+.latest-header {
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 .news {
@@ -183,32 +284,6 @@
   padding-left: 0.7142rem;
 }
 
-.cover-story {
-  display: grid;
-  width: 100%;
-}
-
-.cover-story .one {
-  background-image: url(../images/bolt-walking-service-app-zero-emissions-day-car-uber-lyft-walk-796x448.jpg);
-  background-position: bottom;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
-.cover-story .two {
-  background-image: url(../images/bolt-walking-service-app-zero-emissions-day-car-uber-lyft-walk-796x448.jpg);
-  background-position: bottom;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
-.cover-story .three {
-  background-image: url(../images/bolt-walking-service-app-zero-emissions-day-car-uber-lyft-walk-796x448.jpg);
-  background-position: bottom;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
 .round-link {
   color: #f42;
   margin-top: 0.7857rem;
@@ -218,10 +293,6 @@
   font-size: 2rem;
   font-family: "Avalon", "sans-serif";
   font-weight: bold;
-}
-
-.funding {
-  /* padding: 0.5714rem; */
 }
 
 .mt {
@@ -234,7 +305,6 @@
 
 .fund {
   color: white;
-  /* padding: 0.5714rem 0; */
 }
 
 .fu {
@@ -300,15 +370,16 @@
 
 .popular {
   display: grid;
+  grid-gap: 1.2rem;
 }
 
 .background {
+  position: relative;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
   width: 100%;
   padding-top: 75%;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .background .bottom {
@@ -374,7 +445,7 @@
   border-radius: 50px;
   background-color: #333;
   display: inline-block;
-  margin: 0 0.05rem;
+  margin: 0 0.5%;
 }
 
 .nv-img {
@@ -416,18 +487,46 @@
   width: 5rem;
 }
 
+@media screen and (min-width: 1172px) {
+
+  .align {
+    width: 95%;
+    max-width: 1172px;
+    margin: 0 auto;
+    padding-top: 1.7142rem;
+  }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+  .fund {
+    width: 24%;
+  }
+
+}
+
 @media screen and (min-width: 1024px) {
 
   .cover-story {
-    grid-template-columns: auto auto auto;
     grid-template-rows: repeat(2, 17.3571rem);
   }
 
   .news {
-    flex-direction: column;
-    width: 23.5746%;
+    width: 25%;
   }
 
+  .popular {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .nav1 .tnw .tnw-img {
+    display: none;
+  }
+
+  .nav3 {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -445,7 +544,8 @@
 }
 
 
-@media screen and (min-width: 768px) {
+
+@media (min-width: 767px) and (min-width: 768px) {
 
   .nav1 .tnw .tnw-img {
     padding: 2.5rem 1.4rem 2.1rem;
@@ -459,11 +559,10 @@
     display: block;
   }
 
-  .tnwul1 {}
-
   .cover-story {
     grid-template-columns: auto auto auto;
     grid-template-rows: repeat(2, 13.7143rem);
+    /* grid-template-rows: repeat(2, 17.3571rem); */
     margin-top: 8rem;
     grid-gap: 0.5714rem;
   }
@@ -520,8 +619,6 @@
   .fund {
     float: left;
     width: 32%;
-    /* padding: 0.1666%; */
-    /* padding: 1.35%; */
   }
 
   .fund:nth-of-type(2) {
@@ -536,18 +633,21 @@
     margin-left: 1%;
   }
 
-  .fund-align::after {
+  .fund-align:after {
     content: "";
     clear: left;
   }
 
   .popular {
     grid-template-columns: repeat(2, auto);
-    grid-gap: 1.2rem;
   }
 
   .more-list {
     line-height: 1.3rem;
+  }
+
+  .foot-text {
+    width: 100%;
   }
 
 }
@@ -585,21 +685,13 @@
 
   .nav1 .ham {
     display: inline-block;
-    /* float: right; */
-  }
-
-  .main {
-    
   }
 
   .cover-story {
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, 14rem);
     margin-top: 5.8rem;
-    grid-row-gap: 0.7142rem;
   }
-
-  .cover {}
 
     /* background-image: url(photo.jpg);
     background-position: center center;
@@ -622,25 +714,22 @@
     grid-area: 3 / 1 / 4 / 2;
   }
 
+  .cover-div1 .cvd1 {
+    display: none;
+  }
+  
+  .cover-div .cvd1 {
+    display: none;
+  }
+
+  .cda {
+    font-size: 1.4286rem;
+  }
+
   .latest {
     color: #f42;
     text-decoration: none;
     margin-bottom: 1.7142rem;
-    /* padding: 0 0.5714rem; */
-  }
-
-  .latest-header {
-    /* float: left; */
-    font-size: 2rem;
-  }
-
-  .latest-left-link {
-    /* float: right; */
-  }
-
-  .latest-left-link::after {
-    content: "";
-    clear: both;
   }
 
   .latest-header-link,
@@ -650,16 +739,7 @@
   }
 
   .latest-flex {
-    /* display: flex; */
     flex-direction: column;
-    /* width: 100%; */
-  }
-
-  .news {
-    /* display: flex; */
-    /* padding: 0.5714rem; */
-    flex-direction: row;
-    width: 100%;
   }
 
   .newsgrid {
@@ -667,37 +747,9 @@
     height: 5.3572rem;
   }
 
-  /* .flex-div {
-    padding-left: 0.7142rem;
-  } */
-  
-  /* .news.picone {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-burst-374074-405x270.jpg)
-  } */
-
-  /* .part {
-    color: white;
-  } */
-
-  /* .fund-align {}
-
-  .fund {
-    color: white;
-    padding: 0.5714rem 0;
-  } */
-
-  .section {
-    /* padding: 0 0.5714rem; */
-  }
-
   .popular {
-    grid-template-rows: repeat(9, auto);
+    grid-template-columns: auto;
   }
-
-  .background {
-    /* height: 38.9464rem; */
-  }
-
 
 }
 
