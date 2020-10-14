@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/EraaniR/SmashingMagazine-heatmap/c322fc428e4d23a2b77b1dafaaa5e060905692e0/index.html)
+[Live Demo Link](https://raw.githack.com/Gnwin/Godwin-Eraani-Next-Web-project/nextweb/index.html)
 
 ## Getting Started
 
