@@ -35,6 +35,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
+> Check the nextweb branch.
+> The project was finished up on the nextweb branch
+> My partner contributed hers on nextbranch branch.
 > Open the index.html from your browser.
 
 ### Run tests
