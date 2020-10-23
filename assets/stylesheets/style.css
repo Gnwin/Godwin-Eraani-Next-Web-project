@@ -720,22 +720,13 @@
   letter-spacing: 0.025px;
 }
 
-/* .latest-flex {
-  flex-direction: column;
-} */
 
 .popular {
   grid-template-columns: auto;
 }
 
 
-@media screen and (min-width: 767px) {
-
-  .newslink {
-    margin-bottom: 0.5714rem;
-  }
- 
-}
+@media screen and (min-width: 767px) {}
 
 @media screen and (min-width: 768px) {
 
@@ -848,11 +839,6 @@
     border-right: 1px solid #f42;
   }
 
-  .latest-flex {
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-gap: 24px; */
-  }
 
 }
 
