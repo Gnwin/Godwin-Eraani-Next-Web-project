@@ -517,19 +517,106 @@
 
 .popular {
   display: grid;
-  grid-gap: 1.2rem;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 1.7143rem;
 }
 
-.background {
+.background1 {
   position: relative;
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/shrooms-magical-truffles-gq-368x276.png);
   width: 100%;
   padding-top: 75%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
-.background .bottom {
+.background2 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background3 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/bitcoin-thief-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background4 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/39776596971_e2ab94f1db_k-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background5 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Snag_5ddc02e-368x276.png);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background6 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background7 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/mixed-reality-spatial-computing-gq-368x276.png);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background8 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/battery-ev-car-scientists-lithium-ion-metastable-titanate-graphite-electrode-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background9 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/reddit-deleted-posts-comments-threads-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.back {
+  margin-bottom: 0.2rem;
+}
+
+.back .bottom {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -544,25 +631,116 @@
   text-decoration: none;
 }
 
-.speak-flex {
+.speak {
   background-color: #FFEBE7;
   color: #f42;
+  display: flex;
+}
+
+.speak-flex {
+  padding: 0.7143rem 1.4rem 0;
+  width: calc(100% - 6.8571rem);
+}
+
+.head {
+  font-size: 1.3rem;
+}
+
+.head2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 0.6rem;
+}
+
+.sf1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin-vs-gold.jpg);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.sf2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Quibi-hed.jpg);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.sf3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Snag_d97f33.png);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.sf4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/dark-mode-gmail-maps-google-ios-android.jpg);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.sf5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/card-v-card-bank-account-multiplayer-game.png);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.sf6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/data.jpg);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.sf7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/vw-id3-crash-car-euro-ncap-testing-watch.png);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.sf8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Amazon-Rivian-electric-delivery-van.jpg);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.sf9 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Snag_1385ac7a.png);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
 }
 
 .more-li {
   list-style-type: disc;
   color: #f42;
+  padding-left: 1.2rem;
 }
 
 .more-list {
   margin-top: 0.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 0.3px solid #000;
+  border-bottom: 0.3px solid #eee;
 }
 
 .more-link {
   color: black;
   text-decoration: none;
+  font-size: 0.9286rem;
+  color: #555;
 }
 
 .most-list {
@@ -725,12 +903,6 @@
   letter-spacing: 0.025px;
 }
 
-
-.popular {
-  grid-template-columns: auto;
-}
-
-
 @media screen and (min-width: 767px) {}
 
 @media screen and (min-width: 768px) {
@@ -820,7 +992,7 @@
   }
 
   .popular {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .more-list {
@@ -864,7 +1036,7 @@
   }
 
   .popular {
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .nav1 .tnw .tnw-img {
