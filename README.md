@@ -27,7 +27,9 @@ To get a local copy up and running follow these simple example steps.
 > Browser
 > Text editor of your choice.
 > npm has to be installed in your system.
-> install linters on your IDE.
+> install the following linters on your IDE;
+    - Web hint.
+    - Style lint.
 
 ### Setup
 
@@ -35,10 +37,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-> Check the nextweb branch.
-> The project was finished up on the nextweb branch
-> My partner contributed hers on nextbranch branch.
-> Open the index.html from your browser.
+> Clone the repo.
+> Open the index.html from your browser to view.
 
 ### Run tests
 
@@ -57,6 +57,7 @@ html5validator index.html
 👤 **Godwin Nwachukwu**
 
 - Github: [@Gnwin](https://github.com/Gnwin)
+- Linkedin: [@n-gwin](https://www.linkedin.com/in/n-gwin/)
 
 👤 **Eraani Ruiz**
 

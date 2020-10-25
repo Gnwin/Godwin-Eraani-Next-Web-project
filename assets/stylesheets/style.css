@@ -1,21 +1,16 @@
 /*** Project Meta ***/
 
-/* general - line __ */
+/* general - line 13*/
 
-/* header - line __ */
+/* header - line 39*/
 
-/* main content - line __ */
+/* main content - line 138*/
 
-/* footer - line __ */
-
-/** GENERAL **/
-
-/* #FFDD33 yellow
-#FF4422 orange
-#00CCCC green
-#FFEBE7 light orange */
+/* footer - line 866*/
 
 /** GENERAL **/
+
+/* Mobile View */
 
 .html {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
@@ -83,6 +78,10 @@
   padding: 0 0.3rem;
 }
 
+.fa-caret-down {
+  color: #fff;
+}
+
 .tnwul1-link {
   color: white;
 }
@@ -135,6 +134,8 @@
 .nav1 .sea {
   width: 1.2rem;
 }
+
+/* Main Content */
 
 .grid-pad {
   padding-left: 0.5rem;
@@ -207,7 +208,7 @@
   height: 100%;
 }
 
-.cover-div1 .cvd1 {
+.cover-div1 .cover-div1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -216,7 +217,7 @@
   display: none;
 }
 
-.cover-div1 .cvd2 {
+.cover-div1 .cover-div2 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -224,7 +225,7 @@
   padding: 20px;
 }
 
-.cover-div .cvd1 {
+.cover-div .cover-div1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -233,7 +234,7 @@
   display: none;
 }
 
-.cover-div .cvd2 {
+.cover-div .cover-div2 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -251,23 +252,23 @@
   color: white;
 }
 
-.cover-div .cvd1::after {
+.cover-div .cover-div1::after {
   display: table;
   content: "";
   clear: both;
 }
 
-.cda {
+.cover-display {
   display: block;
   color: white;
 }
 
-.fs {
+.cover-font {
   font-size: 1rem;
 }
 
-.fs1 {
-  font-size: 4rem;
+.cover-fonts {
+  font-size: 3.7rem;
   font-weight: bolder;
 }
 
@@ -280,12 +281,12 @@
   margin-bottom: 0;
 }
 
-.sh {
+.sharing {
   display: inline;
   padding-right: 0.2rem;
 }
 
-.um {
+.share-color {
   color: inherit;
 }
 
@@ -297,7 +298,7 @@
 }
 
 .red {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .none {
@@ -447,7 +448,7 @@
   margin-bottom: 4rem;
 }
 
-.mt {
+.fund-space {
   margin-bottom: 1.7143rem;
 }
 
@@ -459,11 +460,11 @@
   color: white;
 }
 
-.fu {
+.fund-position {
   position: relative;
 }
 
-.fi {
+.funding-img {
   width: 4.2857rem;
   position: absolute;
   top: 0.8571rem;
@@ -510,7 +511,7 @@
   margin-bottom: 0.5rem;
 }
 
-.bc {
+.fund-background {
   background-color: #fffaf8;
 }
 
@@ -687,7 +688,7 @@
   margin-top: 0.6rem;
 }
 
-.sf1 {
+.speak1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin-vs-gold.jpg);
   width: 6.8571rem;
   height: 6.8571rem;
@@ -695,7 +696,7 @@
   background-position: 50%;
 }
 
-.sf2 {
+.speak2 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Quibi-hed.jpg);
   width: 6.8571rem;
   height: 6.8571rem;
@@ -703,7 +704,7 @@
   background-position: 50%;
 }
 
-.sf3 {
+.speak3 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Snag_d97f33.png);
   width: 6.8571rem;
   height: 6.8571rem;
@@ -711,7 +712,7 @@
   background-position: 50%;
 }
 
-.sf4 {
+.speak4 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/dark-mode-gmail-maps-google-ios-android.jpg);
   width: 6.8571rem;
   height: 6.8571rem;
@@ -719,7 +720,7 @@
   background-position: 50%;
 }
 
-.sf5 {
+.speak5 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/card-v-card-bank-account-multiplayer-game.png);
   width: 6.8571rem;
   height: 6.8571rem;
@@ -727,7 +728,7 @@
   background-position: 50%;
 }
 
-.sf6 {
+.speak6 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/data.jpg);
   width: 6.8571rem;
   height: 6.8571rem;
@@ -735,7 +736,7 @@
   background-position: 50%;
 }
 
-.sf7 {
+.speak7 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/vw-id3-crash-car-euro-ncap-testing-watch.png);
   width: 6.8571rem;
   height: 6.8571rem;
@@ -743,7 +744,7 @@
   background-position: 50%;
 }
 
-.sf8 {
+.speak8 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Amazon-Rivian-electric-delivery-van.jpg);
   width: 6.8571rem;
   height: 6.8571rem;
@@ -751,7 +752,7 @@
   background-position: 50%;
 }
 
-.sf9 {
+.speak9 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Snag_1385ac7a.png);
   width: 6.8571rem;
   height: 6.8571rem;
@@ -793,7 +794,7 @@
   color: inherit;
 }
 
-.rig {
+.latest-left {
   float: left;
 }
 
@@ -865,6 +866,7 @@
   background-position: 50%;
 }
 
+/* Footer */
 .footer1 {
   text-align: center;
   background-color: #131313;
@@ -936,9 +938,9 @@
 }
 
 @media screen and (max-width: 767px) {
-  .fs1,
+  .cover-fonts,
   .red {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -1044,13 +1046,13 @@
 }
 
 @media screen and (min-width: 769px) {
-  .in {
+  .inner {
     display: inline-block;
     margin-right: 0.8rem;
     padding-right: 0.6rem;
   }
 
-  .pb {
+  .borderRight {
     border-right: 1px solid #f42;
   }
 }
@@ -1060,7 +1062,7 @@
     grid-template-rows: repeat(2, 17.3571rem);
   }
 
-  .cover-div1 .cvd1 {
+  .cover-div1 .cover-div2 {
     display: block;
   }
 
@@ -1121,11 +1123,11 @@
     padding-right: 0;
   }
 
-  .in {
+  .inner {
     margin: 0 0 0 0.8rem;
   }
 
-  .mt::after {
+  .fund-space::after {
     display: table;
     content: "";
     clear: both;
