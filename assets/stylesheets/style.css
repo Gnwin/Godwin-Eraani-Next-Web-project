@@ -49,7 +49,7 @@
   width: 100%;
   z-index: 1;
   background-color: #fff;
-  box-shadow: 0 0 32px rgba(0, 0, 0, .15);
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
 }
 
 .nav1 {
@@ -121,7 +121,6 @@
 
 .child .child-link {
   color: #aaa;
-  font-family: 'sans-serif';
 }
 
 .nav1 .search,
@@ -274,7 +273,6 @@
 }
 
 .cap {
-  font-family: 'sans-serif';
   margin-bottom: 0;
 }
 
@@ -444,7 +442,6 @@
 
 .round {
   font-size: 1.6rem;
-  font-family: "sans-serif";
   font-weight: bold;
 }
 
@@ -955,21 +952,17 @@
   color: #f42;
   font-size: 1.6rem;
   font-weight: bold;
-  font-family: 'Avalon' 'sans-serif';
   letter-spacing: 0.025px;
 }
 
 @media screen and (max-width: 767px) {
-
   .fs1,
   .red {
     font-size: 1.5rem;
   }
-
 }
 
 @media screen and (min-width: 768px) {
-
   .nav1 .tnw .tnw-img {
     padding: 2.5rem 1.4rem 2.1rem;
   }
@@ -1064,11 +1057,9 @@
   .foot-text {
     width: 100%;
   }
-
 }
 
 @media screen and (min-width: 769px) {
-  
   .in {
     display: inline-block;
     margin-right: 0.8rem;
@@ -1078,12 +1069,9 @@
   .pb {
     border-right: 1px solid #f42;
   }
-
-
 }
 
 @media screen and (min-width: 1024px) {
-
   .cover-story {
     grid-template-rows: repeat(2, 17.3571rem);
   }
@@ -1111,11 +1099,9 @@
   .fund {
     width: 24%;
   }
-
 }
 
 @media screen and (min-width: 1025px) {
-
   .fund {
     width: 23.5%;
   }
@@ -1160,7 +1146,6 @@
     content: "";
     clear: both;
   }
-
 }
 
 @media screen and (min-width: 1172px) {
