@@ -193,7 +193,7 @@
   height: 100%;
 }
 
-.cover-div1 {
+.cover-div12 {
   position: relative;
   width: 100%;
   height: 100%;
@@ -208,7 +208,7 @@
   height: 100%;
 }
 
-.cover-div1 .cover-div1 {
+.cover-div12 .cover-div1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -217,7 +217,7 @@
   display: none;
 }
 
-.cover-div1 .cover-div2 {
+.cover-div12 .cover-div2 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1062,7 +1062,7 @@
     grid-template-rows: repeat(2, 17.3571rem);
   }
 
-  .cover-div1 .cover-div2 {
+  .cover-div12 .cover-div1 {
     display: block;
   }
 
