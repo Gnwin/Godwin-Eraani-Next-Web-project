@@ -951,6 +951,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .grid-pad {
+    margin-top: 6.5rem;
+  }
+
   .nav1 .tnw .tnw-img {
     padding: 2.5rem 1.4rem 2.1rem;
   }
