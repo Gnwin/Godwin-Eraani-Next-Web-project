@@ -75,6 +75,7 @@
   background-color: #131313;
   padding: 0.7rem;
   font-size: 0.8571rem;
+  display: none;
 }
 
 .tnwul1-nav {
@@ -102,6 +103,7 @@
 
 .tnw-nav-left {
   float: left;
+  display: none;
 }
 
 .tnw-ul {
@@ -211,6 +213,7 @@
   left: 0;
   padding: 2.1429rem 1.4286rem 0 1.4286rem;
   width: 100%;
+  display: none;
 }
 
 .cover-div1 .cvd2 {
@@ -227,6 +230,7 @@
   left: 0;
   padding: 20px;
   width: 100%;
+  display: none;
 }
 
 .cover-div .cvd2 {
@@ -928,22 +932,6 @@
 
 /** header **/
 
-.tnwul1 {
-  display: none;
-}
-
-.tnw-nav-left {
-  display: none;
-}
-
-.cover-div1 .cvd1 {
-  display: none;
-}
-
-.cover-div .cvd1 {
-  display: none;
-}
-
 .latest {
   margin-bottom: 0.9rem;
 }
@@ -1149,12 +1137,10 @@
 }
 
 @media screen and (min-width: 1172px) {
-
   /* .align {
     width: 95%;
     max-width: 1172px;
     margin: 0 auto;
     padding-top: 1.7142rem;
   } */
-
 }
