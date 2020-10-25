@@ -4,7 +4,7 @@
 
 > This is a microverse student project for working with hierarchy of elements and responsive design
 
-![screenshot](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/blob/nextweb/assets/images/TNW%20Screenshot.png)
+![screenshot](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/blob/nextweb/assets/images/Screenshotnewtnw.png)
 
 > This project clones the thenextweb.com article page interface design.
 > The project includes the header, the main content, footer, media queries.
