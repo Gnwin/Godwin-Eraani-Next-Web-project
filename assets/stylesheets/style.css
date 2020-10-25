@@ -51,6 +51,7 @@
   width: 100%;
   z-index: 1;
   background-color: #fff;
+  box-shadow: 0 0 32px rgba(0,0,0,.15);
 }
 
 .nav1 {
@@ -143,9 +144,10 @@
 }
 
 .grid-pad {
-  margin-top: 5.8rem;
+  margin-top: 0rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  margin-top: 4rem;
 }
 
 .cover-story {
@@ -153,7 +155,6 @@
   grid-template-columns: 100%;
   grid-template-rows: repeat(3, 14rem);
   grid-gap: 0.7142rem;
-  margin-top: 5.8rem; 
 }
 
 .cover-story .one {
@@ -979,7 +980,14 @@
   letter-spacing: 0.025px;
 }
 
-@media screen and (min-width: 767px) {}
+@media screen and (max-width: 767px) {
+
+  .fs1,
+  .red {
+    font-size: 1.5rem;
+  }
+
+}
 
 @media screen and (min-width: 768px) {
 
