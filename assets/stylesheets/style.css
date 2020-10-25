@@ -1,0 +1,1135 @@
+/*** Project Meta ***/
+
+/* general - line 13 */
+
+/* header - line 39 */
+
+/* main content - line 138 */
+
+/* footer - line 866 */
+
+/** GENERAL **/
+
+/* Mobile View */
+
+.html {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 87.5%;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: white;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.offscreen {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/** header **/
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.tnw {
+  background-color: black;
+}
+
+.nav1 .tnw .tnw-img {
+  width: 7.5714rem;
+  padding: 1.2rem 1.4rem 0.9rem;
+}
+
+.nav3 {
+  width: calc(100% - 7.5714rem);
+}
+
+.tnwul1 {
+  background-color: #131313;
+  padding: 0.7rem;
+  font-size: 0.8571rem;
+  display: none;
+}
+
+.tnwul1-nav {
+  display: inline;
+  padding: 0 0.3rem;
+}
+
+.fa-caret-down {
+  color: #fff;
+}
+
+.tnwul1-link {
+  color: white;
+}
+
+.tnwul1-right {
+  float: right;
+}
+
+.tnwul1::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.tnw-nav {
+  font-size: 0.9285rem;
+}
+
+.tnw-nav-left {
+  float: left;
+  display: none;
+}
+
+.tnw-ul {
+  float: right;
+}
+
+.tnw-nav::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.child {
+  display: inline-block;
+  padding: 1.2rem 0.8rem;
+}
+
+.child .child-link {
+  color: #aaa;
+}
+
+.nav1 .search,
+.nav1 .ham {
+  display: inline-flex;
+  border-left: 1px solid #000;
+  padding: 1.05rem 1.25rem;
+}
+
+.nav1 .sea {
+  width: 1.2rem;
+}
+
+/* Main Content */
+
+.grid-pad {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 4rem;
+}
+
+.cover-story {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, 14rem);
+  grid-gap: 0.7142rem;
+}
+
+.go {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.cover-story .one {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/image-16-796x417.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+.cover-story .two {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/tnw2020-feature_img-02.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-area: 2 / 1 / 3 / 2;
+  position: relative;
+}
+
+.cover-story .three {
+  background-image: url(../images/bolt-walking-service-app-zero-emissions-day-car-uber-lyft-walk-796x448.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-area: 3 / 1 / 4 / 2;
+  position: relative;
+}
+
+.cover-story .one .go {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cover-div12 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.cover-div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cover-div12 .cover-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2.1429rem 1.4286rem 0 1.4286rem;
+  width: 100%;
+  display: none;
+}
+
+.cover-div12 .cover-div2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.cover-div .cover-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  display: none;
+}
+
+.cover-div .cover-div2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.cdi {
+  width: 55%;
+  float: left;
+}
+
+.time {
+  float: right;
+  color: white;
+}
+
+.cover-div .cover-div1::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.cover-display {
+  display: block;
+  color: white;
+}
+
+.cover-font {
+  font-size: 1rem;
+}
+
+.cover-fonts {
+  font-size: 3.7rem;
+  font-weight: bolder;
+}
+
+.share {
+  font-size: 0.8571rem;
+  color: #555;
+}
+
+.cap {
+  margin-bottom: 0;
+}
+
+.sharing {
+  display: inline;
+  padding-right: 0.2rem;
+}
+
+.share-color {
+  color: inherit;
+}
+
+.fa-clock {
+  width: 15px;
+  height: 15px;
+  color: white;
+  z-index: 99;
+}
+
+.red {
+  font-size: 1.75rem;
+}
+
+.none {
+  display: none;
+}
+
+.align {
+  width: 95%;
+  max-width: 82.2857rem;
+  margin: 0 auto;
+  padding-top: 1.7142rem;
+}
+
+.latest-news {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-gap: 1.7142rem;
+  padding: 1rem 0;
+  margin-bottom: 4.5rem;
+}
+
+.latest-flex {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-gap: 20px;
+}
+
+.news {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0.5rem;
+}
+
+.newslink {
+  padding-bottom: 0.5rem;
+}
+
+.newsgrid {
+  width: 5.3572rem;
+  height: 5.3572rem;
+}
+
+.newsgrid1 {
+  width: 5.3572rem;
+  height: 5.3572rem;
+}
+
+.news1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Untitled-design-2020-10-21T181131.696-516x270.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/TNW-Desklab-405x270.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/header-image-google-drive-files-gmail-516x270.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin-vs-gold-516x270.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/image-3-6-516x270.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/header-image-realme-7-pro-review-516x270.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Untitled-design-2020-10-21T181131.696-516x270.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/icons8-spirituality-company-gq-540x270.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.flex-div {
+  padding-left: 0.7142rem;
+}
+
+.card-title {
+  font-size: 1.1429rem;
+  color: initial;
+  font-weight: bold;
+}
+
+.card-author {
+  font-size: 0.9286rem;
+  padding-top: 0.2857rem;
+  color: #aaa;
+}
+
+.card-author-link {
+  color: inherit;
+}
+
+.card-author1 {
+  font-size: 1.1429rem;
+  padding-top: 0.2857rem;
+  color: #000;
+}
+
+.card-author-link1 {
+  font-size: 0.9286rem;
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.round-link {
+  color: #f42;
+  margin-top: 0.7857rem;
+}
+
+.round {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.funding {
+  margin-bottom: 4rem;
+}
+
+.fund-space {
+  margin-bottom: 1.7143rem;
+}
+
+.fund-align {
+  margin: 0 auto;
+}
+
+.fund {
+  color: white;
+}
+
+.fund-position {
+  position: relative;
+}
+
+.funding-img {
+  width: 4.2857rem;
+  position: absolute;
+  top: 0.8571rem;
+  left: 0.8571rem;
+}
+
+.fund-img {
+  width: 100%;
+}
+
+.block {
+  display: block;
+}
+
+.skill {
+  background-color: #f42;
+}
+
+.suse {
+  background-color: #ffebe7;
+  color: black;
+}
+
+.skill,
+.suse {
+  padding: 0.7619rem 1.1429rem 0.7619rem 6rem;
+}
+
+.sum {
+  font-size: 1.2857rem;
+}
+
+.series {
+  font-size: 0.7857rem;
+}
+
+.cate {
+  padding: 1.1429rem;
+  font-size: 0.9286rem;
+}
+
+.col {
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.fund-background {
+  background-color: #fffaf8;
+}
+
+.fa-tag,
+.fa-briefcase {
+  color: #000;
+  padding-right: 0.4rem;
+}
+
+.fustart {
+  padding: 1.1429rem;
+  font-size: 0.8571rem;
+  border-top: 1px solid #ffebe7;
+  display: block;
+}
+
+.popular {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 1.7143rem;
+  margin-bottom: 6rem;
+}
+
+.pop {
+  margin-bottom: 1.7142rem;
+}
+
+.background1 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/shrooms-magical-truffles-gq-368x276.png);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background2 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background3 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/bitcoin-thief-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background4 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/39776596971_e2ab94f1db_k-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background5 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Snag_5ddc02e-368x276.png);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background6 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background7 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/mixed-reality-spatial-computing-gq-368x276.png);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background8 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/battery-ev-car-scientists-lithium-ion-metastable-titanate-graphite-electrode-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background9 {
+  position: relative;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/reddit-deleted-posts-comments-threads-368x276.jpg);
+  width: 100%;
+  padding-top: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.back {
+  margin-bottom: 0.2rem;
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.bottom {
+  padding: 1rem;
+}
+
+.back .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.most {
+  font-size: 0.9286rem;
+}
+
+.most-title {
+  padding: 0.4rem 0;
+}
+
+.most,
+.most-title,
+.most-list,
+.most-link,
+.title {
+  color: white;
+  text-decoration: none;
+}
+
+.speak {
+  background-color: #ffebe7;
+  color: #f42;
+  display: flex;
+}
+
+.speak-flex {
+  padding: 0.7143rem 1.4rem 0;
+  width: calc(100% - 6.8571rem);
+}
+
+.head {
+  font-size: 1.1rem;
+}
+
+.head2 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0.6rem;
+}
+
+.speak1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin-vs-gold.jpg);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.speak2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Quibi-hed.jpg);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.speak3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Snag_d97f33.png);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.speak4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/dark-mode-gmail-maps-google-ios-android.jpg);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.speak5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/card-v-card-bank-account-multiplayer-game.png);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.speak6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/data.jpg);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.speak7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/vw-id3-crash-car-euro-ncap-testing-watch.png);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.speak8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Amazon-Rivian-electric-delivery-van.jpg);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.speak9 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Snag_1385ac7a.png);
+  width: 6.8571rem;
+  height: 6.8571rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.more-li {
+  list-style-type: disc;
+  color: #f42;
+  padding-left: 1.2rem;
+}
+
+.more-list {
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.3px solid #eee;
+}
+
+.more-link {
+  text-decoration: none;
+  font-size: 0.9286rem;
+  color: #555;
+}
+
+.most-link {
+  font-size: 1.4286rem;
+  font-weight: bolder;
+}
+
+.most-li {
+  display: inline;
+  list-style: disc;
+  font-size: 0.8571rem;
+  color: #555;
+}
+
+.title {
+  color: inherit;
+}
+
+.latest-left {
+  float: left;
+}
+
+.see {
+  margin-top: 0.4rem;
+  color: #f42;
+  float: right;
+}
+
+.lat1::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.news11 {
+  background-image: url(https://cdnp0.stackassets.com/a68534c498e1b691e7e4c434a7c7db7618260e6c/store/d98b95032984643f3ecec8fc77b05f6763ea52a9f3dd7fdb80a3cb127b76/sale_46558_primary_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news21 {
+  background-image: url(https://cdnp1.stackassets.com/642c455bc74de59a3c3bbb26262a6b85c2109662/store/216a99ecba53036f93d5db0f7da7096c275bc4f35f9c88a6ebb814967af7/sale_31148_primary_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news31 {
+  background-image: url(https://cdnp3.stackassets.com/88d0bc73ecf1b21dad8ed87d41a6336b335b0c24/store/31a583dae214ee4184867fa4b93c6689894332e46e3617e46e4bde0ad330/sale_44046_primary_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news41 {
+  background-image: url(https://cdnp1.stackassets.com/db46f844d3bc0f538ec8bc67b1b18be252800838/store/3777e64125b8404b6b9d83e3c05ffadc23ec4911d18e7e3868d988a49714/sale_27873_primary_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news51 {
+  background-image: url(https://cdnp1.stackassets.com/cd1094481a7276c117e8a6dcc9a13cdeeab8deb5/store/54f1eab1b4e69f1bb71fc3fd2737b18dd24e8ec2c8d969838214a608d326/sale_41737_primary_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news61 {
+  background-image: url(https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news71 {
+  background-image: url(https://cdnp2.stackassets.com/e44f78edfcb13200279a2501b09d16c02b10f739/store/c200444f3c9de39ea53f56d44028fbc6277a145194261a66d8a2ed1b0a56/product_27619_product_shots1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.news81 {
+  background-image: url(https://cdnp1.stackassets.com/8a3fa181145a83a1affe83618625b8aea74daa9f/store/20920f3277c0c7a719b34c06dafcd8f2d180d9c30f9b81d075055195ab59/tesla-fundraiser-mf-250.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+/* Footer */
+.footer1 {
+  text-align: center;
+  background-color: #131313;
+}
+
+.center {
+  padding: 2.5rem 0;
+}
+
+.foot-nav {
+  margin-bottom: 1.5rem;
+}
+
+.nav-li {
+  padding: 1rem;
+  border-radius: 50px;
+  background-color: #333;
+  display: inline-block;
+  margin: 0 0.5%;
+}
+
+.nv-img {
+  width: 1rem;
+  color: white;
+}
+
+.footnav1 {
+  font-size: 0.8571rem;
+}
+
+.navli1 {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 0.2rem;
+}
+
+.footer2 {
+  background-color: black;
+  font-size: 0.9285rem;
+  text-align: center;
+  padding: 0 1rem;
+  color: #aaa;
+}
+
+.foot-text {
+  width: 30%;
+  margin: 0 auto;
+  padding: 2.2857rem 0;
+}
+
+.tnw-img1 {
+  width: 2.7rem;
+}
+
+.tnw-img2 {
+  width: 5rem;
+}
+
+.latest {
+  margin-bottom: 0.9rem;
+}
+
+.latest-header-link {
+  color: #f42;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.025px;
+}
+
+@media screen and (max-width: 767px) {
+  .cover-fonts,
+  .red {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid-pad {
+    margin-top: 6.5rem;
+  }
+
+  .nav1 .tnw .tnw-img {
+    padding: 2.5rem 1.4rem 2.1rem;
+  }
+
+  .tnwul1 {
+    display: block;
+  }
+
+  .nav1 .ham {
+    display: none;
+  }
+
+  .tnw-nav-left {
+    display: block;
+  }
+
+  .cover-story {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(2, 13.7143rem);
+    grid-gap: 0.5714rem;
+  }
+
+  .cover-story .one {
+    grid-area: 1 / 1 / 3 / 3;
+  }
+
+  .cover-story .two {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+
+  .cover-story .three {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+
+  .latest-flex {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .news {
+    flex-direction: column;
+  }
+
+  .newsgrid {
+    width: 100%;
+    padding-top: 50%;
+  }
+
+  .newsgrid1 {
+    width: 100%;
+    padding-top: 74.5%;
+  }
+
+  .flex-div {
+    padding-left: 0;
+  }
+
+  .fund-align {
+    width: 100%;
+  }
+
+  .fund {
+    float: left;
+    width: 32%;
+  }
+
+  .fund:nth-of-type(2) {
+    margin: 0 1%;
+  }
+
+  .fund:nth-of-type(1) {
+    margin-right: 1%;
+  }
+
+  .fund:nth-of-type(3) {
+    margin-left: 1%;
+  }
+
+  .fund-align::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .popular {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .more-list {
+    line-height: 1.3rem;
+  }
+
+  .foot-text {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .inner {
+    display: inline-block;
+    margin-right: 0.8rem;
+    padding-right: 0.6rem;
+  }
+
+  .borderRight {
+    border-right: 1px solid #f42;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover-story {
+    grid-template-rows: repeat(2, 17.3571rem);
+  }
+
+  .cover-div12 .cover-div1 {
+    display: block;
+  }
+
+  .latest-flex {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .popular {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .nav1 .tnw .tnw-img {
+    display: none;
+  }
+
+  .nav3 {
+    width: 100%;
+  }
+
+  .fund {
+    width: 24%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .fund {
+    width: 23.5%;
+  }
+
+  .fund:nth-of-type(3) {
+    margin: 0 1%;
+  }
+
+  .fund:nth-of-type(4) {
+    display: block;
+    margin-left: 1%;
+  }
+
+  .rite {
+    padding-top: 0.4286rem;
+    float: right;
+  }
+
+  .round {
+    display: inline;
+  }
+
+  .round-link {
+    display: inline;
+  }
+
+  .round-link:nth-child(3) {
+    padding-left: 0;
+  }
+
+  .round-link:last-child {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .inner {
+    margin: 0 0 0 0.8rem;
+  }
+
+  .fund-space::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+}
